@@ -20,7 +20,7 @@ if (require.main !== module) {
     }
     const info = file == null ? {} : yaml.safeLoad(file)
     const files = globule
-      .find(`${folder}/**/*`)
+      .find(`${folder}/**/*`, {filter: 'isFile'})
       .map(p => path.relative(folder, p))
     const gerbers = gerberFiles(files, info.gerbers).map(p =>
       path.join(folder, p)
