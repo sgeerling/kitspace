@@ -81,6 +81,7 @@ if (require.main !== module) {
   try {
     let color, data
     const stackupData = []
+    console.log({gerbers})
     for (let gerberPath of gerbers) {
       data = fs.readFileSync(gerberPath, {encoding: 'utf8'})
       stackupData.push({filename: path.basename(gerberPath), gerber: data})
