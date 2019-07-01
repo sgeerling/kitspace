@@ -1,0 +1,18 @@
+References	Qty	Description	Manufacturer	MPN	Digikey	Mouser	RS	Newark	Farnell
+C2,C1	2	100nF		C_Disc_D5.0mm_W2.5mm_P5.00mm					
+C3,C4	2	1uF		C_Disc_D5.0mm_W2.5mm_P5.00mm					
+R2,R1	2	To be calculated (only populate if I2c is NOT used)		R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal					
+R7,R6	2	Parallel to R2,R1		R_0603					
+C7,C8	2	100nF		C_0603					
+D1,D2	2	1N400x		D_DO-41_SOD81_P7.62mm_Horizontal					
+U1	1	L7805SOT89		SOT-89-3_Handsoldering					
+UART1	1	Conn_01x03		Pin_Header_Straight_1x03_Pitch2.54mm					
+R3	1	220Ohm (only populate if ADC is NOT used)		R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal					
+R4,R5	2	3k3		R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal					
+C5,C6	2	22uF		CP_Radial_D5.0mm_P2.00mm					
+J1,J2	2	JST PH		JST_XH_B04B-XH-A_04x2.50mm_Straight					
+J4,J5,J3	3	Screw_Terminal_01x02		TerminalBlock_4UCON_19963_02x3.5mm_Straight					
+D3	1	LED		LED_D3.0mm					
+JP1,JP2	2	Jumper_NC_Dual		SOLDER-JUMPER_2-WAY					
+J6	1	Conn_01x04		NUNCHUCK					
+G***	1	LOGO		otterimage_crop_13					

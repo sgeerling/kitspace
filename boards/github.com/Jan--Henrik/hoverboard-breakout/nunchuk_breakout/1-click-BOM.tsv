@@ -1,0 +1,9 @@
+References	Qty	Description	Digikey	Mouser	RS	Newark	Farnell
+U1	1	78L33ACUTR					
+D1	1	LED					
+R1	1	220Ohm					
+R2,R3	2	3.3kOhm					
+C3,C4	2	100nF					
+J1	1	XH2.54-4Y					
+NUNCHUK	1	NUNCHUK					
+C1,C2	2	DNP					
